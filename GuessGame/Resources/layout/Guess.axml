@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/linearLayout1">
+    <TextView
+        p1:text="Enter your guess"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView1" />
+    <TextView
+        p1:text="0 characters"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/CharacterTxtVw" />
+    <ImageView
+        p1:src="@android:drawable/ic_menu_gallery"
+        p1:layout_width="match_parent"
+        p1:layout_height="150.5dp"
+        p1:id="@+id/ImageVw"
+        p1:layout_marginBottom="10dp"
+        p1:layout_marginLeft="0.0dp"
+        p1:layout_marginTop="0.0dp" />
+    <EditText
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/AnswerTxt" />
+    <Button
+        p1:text="Guess"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/SubmitBtn" />
+</LinearLayout>
